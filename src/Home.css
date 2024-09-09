@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  #nav-bar{
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+    font-size: 20px;
+  }
+  
+  .hero-part{
+    background-image: url(./assets/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .hero-part img{
+    padding-top: 220px;
+    padding-left: 220px;
+  }
+  
+  /* about-part */
+  
+  .about-part h2{
+    font-size: 45px;
+  }
+  .about-part p{
+    font-size: 17px;
+  }
+  
+  /* My painting*/
+  .My-painting{
+    background-color: whitesmoke;
+  }
+  .My-painting h2{
+    font-size: 45px;
+    padding-top: 50px;
+  }
+  .My-painting p{
+    font-size: 17px;
+    color: #6c757c;
+  }
+  #card-name{
+    color: gold;
+  }
+  #card-body{
+    box-shadow: 4px 4px 5px gray;
+  }
+
+  
+  /*Service-part*/
+  .Service-part h2{
+    font-size: 45px;
+  }
+  #service-border{
+    height: 200px;
+  }
+  .Service-part p{
+    font-size: 17px;
+    color: #6c757c;
+  }
+  
+  .Service-part i{
+    font-size: 2.5rem;
+    color: gold;
+  }
+  
+  /* about part,contact,service banner img*/
+  .banner-img{
+    background-image: url(./assets/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+  .banner-img h1{
+    font-size: 60px;
+    color: #fff;
+  }
+  /*contact-part */
+  .contact-part i{
+    font-size: 2rem;
+  }
+  .contact-part p{
+    color: #6c757c;
+    font-size: 17px;
+  }
+  .contact-part span{
+    color: #6c757c;
+    font-size: 18px;
+  }
+
+  /*home part media*/
+  @media only screen and (max-width: 768px) {
+    img{
+        width: 100%;
+    }
+    .hero-part img{
+      height: 300px;
+      width: 100%;
+      margin-left: -95px;
+      margin-top: 170px;
+    }
+    .My-painting img{
+        width: 74vw;
+    }
+    #card-body{
+      margin-left: 40px;
+    }
+  }
