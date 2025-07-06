@@ -5,14 +5,13 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom'; 
 
 function Header() {
   return (
     <Navbar expand="lg" className="bg-body-secondary" id="nav-bar">
       <Container>
-        <Navbar.Brand as={Link} to="/Home">
+        <Navbar.Brand as={Link} to="/">
           <img src={logo} alt="Company Logo" style={{ height: '40px' }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

@@ -1,0 +1,18 @@
+  /* My painting*/
+  .My-painting{
+    background-color: whitesmoke;
+  }
+  .My-painting h2{
+    font-size: 45px;
+    padding-top: 51px;
+  }
+  .My-painting p{
+    font-size: 17px;
+    color: #6c757c;
+  }
+  #card-name{
+    color: gold;
+  }
+  #card-body{
+    box-shadow: 4px 4px 5px gray;
+  }
